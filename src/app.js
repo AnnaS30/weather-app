@@ -1,1 +1,1 @@
-alert("Good luck");
+
