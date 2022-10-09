@@ -45,19 +45,32 @@
           <div class="row">
             <div class="col-6">
               <div class="d-flex weather-temperature">
-                <img src="#" alt="sunny" id="icon" width="45" />
+                <img src="#" alt="sunny" id="icon" width="55" />
                 <div>
-                  <strong id="temperature">19</strong>
+                  <strong id="temperature"></strong>
                   <span class="units">
-                    °C| <a href="#" style="text-decoration: none">ºF</a></span
+                    <a
+                      href="#"
+                      id="celsius-temp"
+                      class="active"
+                      style="text-decoration: none"
+                      >°C</a
+                    >
+                    |
+                    <a
+                      href="#"
+                      id="fahrenheit-temp"
+                      style="text-decoration: none"
+                      >ºF</a
+                    ></span
                   >
                 </div>
               </div>
             </div>
             <div class="col-6">
               <ul>
-                <li>Humidity: <span id="humidity">56</span>%</li>
-                <li>Wind: <span id="wind">34</span> km/h</li>
+                <li>Humidity: <span id="humidity"></span>%</li>
+                <li>Wind: <span id="wind"></span> km/h</li>
               </ul>
             </div>
           </div>
