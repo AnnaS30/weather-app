@@ -48,3 +48,6 @@ li:first-letter {
   position: relative;
   top: -12px;
 }
+#search-form {
+  margin-top: 15px;
+}
