@@ -57,3 +57,17 @@ li:first-letter {
 .weather-temperature .active.active:hover {
   text-decoration: none;
 }
+.week-forecast {
+  text-align: center;
+  margin-top: 15px;
+}
+.week-forecast-day {
+  font-size: 16px;
+  color: blueviolet;
+}
+.week-forecast-temp {
+  font-size: 14px;
+}
+.day-min-weather {
+  opacity: 0.5;
+}
